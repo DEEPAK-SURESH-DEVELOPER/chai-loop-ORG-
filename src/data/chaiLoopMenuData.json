@@ -1,0 +1,643 @@
+{
+  "business": {
+    "name": "Chai Loop Cafe",
+    "location_as_printed": "Kakkanad, Kunnumpuram",
+    "phone_as_printed": "7736158820",
+    "currency": "INR",
+    "source": "User-provided photographs of printed Chai Loop Cafe menus"
+  },
+  "categories": [
+    {
+      "id": "wraps",
+      "name": "Wraps",
+      "items": [
+        {
+          "name": "Crispy Zinger Wrap",
+          "price": 150,
+          "description": "Crispy chicken strips with lettuce, crunchy veggies and creamy mayo in a toasted wrap."
+        },
+        {
+          "name": "Beef Wrap",
+          "price": 220,
+          "description": "Juicy seasoned beef strips with onions, lettuce, tangy sauce and veggies in a toasted wrap."
+        },
+        {
+          "name": "Chailoop Special Wrap",
+          "price": 190,
+          "description": "Juicy chicken pieces tossed in a special tangy sauce with fresh veggies and signature spices in a wrap."
+        },
+        {
+          "name": "Veg Wrap",
+          "price": 120,
+          "description": "Spiced potatoes, grilled veggies and zesty Schezwan mayo in a soft tortilla with a hint of cheesy goodness."
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "Smashed Beef Burger",
+          "price": 220,
+          "description": "Premium smashed beef patty with melted cheese, caramelized onions, pickles and special sauce."
+        },
+        {
+          "name": "Smashed Beef Burger XL",
+          "price": 290
+        },
+        {
+          "name": "Smashed Beef Burger XXL",
+          "price": 350
+        },
+        {
+          "name": "Smashed Chicken Burger",
+          "price": 170,
+          "description": "Smashed juicy chicken patty with creamy sauce, lettuce, pickles and onions in a soft bun."
+        },
+        {
+          "name": "Smashed Chicken Burger XL",
+          "price": 260
+        },
+        {
+          "name": "Smashed Chicken Burger XXL",
+          "price": 320
+        },
+        {
+          "name": "Zinger Burger",
+          "price": 150,
+          "description": "Crispy chicken with lettuce, creamy mayo, pickles and tangy sauce in a toasted sesame bun."
+        },
+        {
+          "name": "Veg Burger",
+          "price": 120,
+          "description": "Crispy aloo patty with lettuce, tomato, onion, mayo and cheese in a sesame bun."
+        },
+        {
+          "name": "Triple Treat Burger",
+          "price": 250,
+          "description": "Three juicy layers — chicken patty, cheese, veggies and signature sauce."
+        }
+      ]
+    },
+    {
+      "id": "loaded_fries",
+      "name": "Loaded Fries",
+      "items": [
+        {
+          "name": "Chai Loop Special Loaded Fries",
+          "price": 180,
+          "description": "Crispy fries loaded with special creamy sauce, toppings and a sprinkle of spicy mayo."
+        },
+        {
+          "name": "Cheese Chicken Loaded Fries",
+          "price": 220,
+          "description": "Loaded with crispy chicken, cheese sauce and toppings."
+        },
+        {
+          "name": "Smashed Chicken Loaded Fries",
+          "price": 250,
+          "description": "Crispy fries topped with smashed chicken, creamy cheese sauce, signature spices and fresh herbs."
+        },
+        {
+          "name": "Beef Loaded Fries",
+          "price": 280,
+          "description": "Loaded with seasoned beef, cheese sauce and toppings."
+        },
+        {
+          "name": "Veg Loaded Fries",
+          "price": 160
+        }
+      ]
+    },
+    {
+      "id": "momos",
+      "name": "Momos",
+      "items": [
+        {
+          "name": "Fried Momos",
+          "price": 110,
+          "description": "Crispy on the outside, juicy on the inside. Served with spicy dip."
+        },
+        {
+          "name": "Steamed Momos",
+          "price": 110,
+          "description": "Soft, tender steamed momos with mild seasoning."
+        },
+        {
+          "name": "Schezwan Momos",
+          "price": 130,
+          "description": "Spicy Schezwan sauce-coated momos with bold, tangy kick."
+        },
+        {
+          "name": "Dynamite Momos",
+          "price": 130,
+          "description": "Drizzled with dynamite sauce for a creamy and spicy flavour explosion."
+        },
+        {
+          "name": "BBQ Momos",
+          "price": 130,
+          "description": "Smoky BBQ sauce-glazed momos with a rich flavour."
+        },
+        {
+          "name": "Thai Honey Momos",
+          "price": 130,
+          "description": "Sweet and savoury Thai honey glaze."
+        },
+        {
+          "name": "Kanthari Momos",
+          "price": 130,
+          "description": "Spicy Kanthari chilli twist for heat lovers."
+        }
+      ]
+    },
+    {
+      "id": "starters",
+      "name": "Starters",
+      "items": [
+        {
+          "name": "Chicken Strips",
+          "price": 150,
+          "description": "Crispy, golden chicken strips seasoned to perfection. Served with dip."
+        },
+        {
+          "name": "Regular Fries",
+          "price": 90,
+          "description": "Classic golden fries, lightly salted and perfectly crispy."
+        },
+        {
+          "name": "Peri Peri Fries",
+          "price": 100,
+          "description": "Fries tossed in spicy peri peri seasoning."
+        },
+        {
+          "name": "Cheddar Fries",
+          "price": 100,
+          "price_alternatives": [
+            120
+          ],
+          "description": "Crispy fries loaded with creamy cheddar cheese sauce.",
+          "price_note": "The black menu page shows ₹100; the white menu page shows ₹120."
+        }
+      ]
+    },
+    {
+      "id": "juices",
+      "name": "Juices",
+      "items": [
+        {
+          "name": "Orange Juice",
+          "price": 80
+        },
+        {
+          "name": "Pineapple Juice",
+          "price": 80
+        },
+        {
+          "name": "Grapes Juice",
+          "price": 80
+        },
+        {
+          "name": "Papaya Juice",
+          "price": 80
+        },
+        {
+          "name": "Avocado Juice",
+          "price": 90
+        },
+        {
+          "name": "Anar Juice",
+          "price": 90
+        },
+        {
+          "name": "Musambi Juice",
+          "price": 70
+        },
+        {
+          "name": "Watermelon Juice",
+          "price": 70
+        },
+        {
+          "name": "Chikoo Juice",
+          "price": 80
+        },
+        {
+          "name": "Apple Juice",
+          "price": 90
+        },
+        {
+          "name": "Shamam Juice",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "mojitos",
+      "name": "Mojito",
+      "items": [
+        {
+          "name": "Virgin Mojito",
+          "price": 89,
+          "price_alternatives": [
+            80
+          ],
+          "price_note": "Black drinks page shows ₹89; white menu page shows ₹80."
+        },
+        {
+          "name": "Green Apple Mojito",
+          "price": 99
+        },
+        {
+          "name": "Blue Ocean Mojito",
+          "price": 99
+        },
+        {
+          "name": "Watermelon Mojito",
+          "price": 99
+        },
+        {
+          "name": "Passion Fruit Mojito",
+          "price": 99
+        },
+        {
+          "name": "Cranberry Mojito",
+          "price": 105,
+          "price_note": "Listed on the white menu page only."
+        }
+      ]
+    },
+    {
+      "id": "bubble_tea",
+      "name": "Bubble Tea / Boba",
+      "items": [
+        {
+          "name": "Matcha Boba",
+          "price": 140,
+          "description": "Smooth matcha tea with chewy boba pearls."
+        },
+        {
+          "name": "Rose Boba",
+          "price": 130,
+          "description": "Sweet rose tea with boba pearls."
+        },
+        {
+          "name": "Boost Boba",
+          "price": 120,
+          "price_alternatives": [
+            140
+          ],
+          "price_note": "Black drinks page shows ₹120; white menu page shows ₹140."
+        },
+        {
+          "name": "Butterscotch Boba",
+          "price": 140
+        },
+        {
+          "name": "Chocolate Boba",
+          "price": 140
+        },
+        {
+          "name": "Caramel Boba",
+          "price": 140
+        }
+      ]
+    },
+    {
+      "id": "shakes",
+      "name": "Shakes",
+      "items": [
+        {
+          "name": "Protein Shake",
+          "price": 120,
+          "description": "High-protein blend for lasting energy and muscle recovery."
+        },
+        {
+          "name": "Roasted Cashew Shake",
+          "price": 120,
+          "description": "Creamy roasted cashews blended into a rich, nutty delight."
+        },
+        {
+          "name": "Sharjah Shake",
+          "price": 80,
+          "description": "Classic Kerala favourite with banana, nuts and a smooth creamy finish."
+        },
+        {
+          "name": "Tender Avocado Shake",
+          "price": 110,
+          "description": "Fresh avocado blended with tender coconut for a silky treat."
+        },
+        {
+          "name": "Vanilla Shake",
+          "price": 90,
+          "description": "Classic vanilla milkshake — rich, smooth and creamy."
+        },
+        {
+          "name": "Strawberry Shake",
+          "price": 90,
+          "description": "Fresh strawberry milkshake bursting with sweet fruity flavour."
+        },
+        {
+          "name": "Chocolate Shake",
+          "price": 120,
+          "description": "Rich chocolate blended into a thick, creamy indulgence."
+        },
+        {
+          "name": "Butter Scotch Shake",
+          "price": 120,
+          "description": "Creamy butterscotch with crunchy caramel bits."
+        },
+        {
+          "name": "Spanish Delight Shake",
+          "price": 130,
+          "description": "Premium creamy shake with caramel, nuts and a smooth, irresistible finish."
+        }
+      ]
+    },
+    {
+      "id": "avil_milk",
+      "name": "Avil Milk",
+      "items": [
+        {
+          "name": "Avil Milk",
+          "price": 60,
+          "description": "Classic avil milk with nuts and sweet goodness."
+        },
+        {
+          "name": "Special Avil Milk",
+          "price": 70,
+          "description": "Special creamy avil milk with fruits, nuts and rich flavour."
+        },
+        {
+          "name": "Tender Avil Milk",
+          "price": 80,
+          "description": "Tender coconut avil milk blended with rich ingredients."
+        }
+      ]
+    },
+    {
+      "id": "falooda",
+      "name": "Falooda",
+      "items": [
+        {
+          "name": "Classic Falooda",
+          "price": 110,
+          "description": "Traditional falooda with creamy layers."
+        },
+        {
+          "name": "Strawberry Falooda",
+          "price": 140,
+          "description": "Sweet strawberry falooda with creamy layers."
+        },
+        {
+          "name": "Mango Falooda",
+          "price": 140,
+          "description": "Mango falooda loaded with rich flavours."
+        },
+        {
+          "name": "Tender Falooda",
+          "price": 150,
+          "description": "Tender coconut falooda with rich ingredients."
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "Tea",
+      "items": [
+        {
+          "name": "Tea",
+          "price": 15
+        },
+        {
+          "name": "Katten Chai",
+          "price": 12
+        },
+        {
+          "name": "Boost",
+          "price": 25
+        },
+        {
+          "name": "Badam Milk",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Salad",
+      "items": [
+        {
+          "name": "Fruit Salad",
+          "price": 90
+        },
+        {
+          "name": "Special Fruit Salad",
+          "price": 110
+        }
+      ]
+    },
+    {
+      "id": "biryani",
+      "name": "Biryani",
+      "items": [
+        {
+          "name": "Chicken Biryani",
+          "price": 180
+        },
+        {
+          "name": "Beef Biryani",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": "other_drinks",
+      "name": "Other Drinks",
+      "items": [
+        {
+          "name": "Kannur Cocktail",
+          "price": 80
+        }
+      ]
+    }
+  ],
+  "combos": [
+    {
+      "category": "Burgers",
+      "name": "Smashed Beef Burger Combo",
+      "includes": [
+        "Smashed beef burger",
+        "Mojito",
+        "Fries"
+      ],
+      "price": 339
+    },
+    {
+      "category": "Burgers",
+      "name": "Smashed Chicken Burger Combo",
+      "includes": [
+        "Smashed chicken burger",
+        "Mojito"
+      ],
+      "price": 260
+    },
+    {
+      "category": "Burgers",
+      "name": "Zinger Burger Combo",
+      "includes": [
+        "Zinger burger",
+        "Fresh lime",
+        "Fries"
+      ],
+      "price": 209
+    },
+    {
+      "category": "Loaded",
+      "name": "Cheese Chicken Loaded Combo",
+      "includes": [
+        "Cheese chicken loaded fries",
+        "2 lime"
+      ],
+      "price": 260
+    },
+    {
+      "category": "Loaded",
+      "name": "Beef Loaded Fries Combo",
+      "includes": [
+        "Beef loaded fries",
+        "2 lime"
+      ],
+      "price": 320
+    },
+    {
+      "category": "Loaded",
+      "name": "Smashed Chicken Loaded Combo",
+      "includes": [
+        "Smashed chicken loaded fries",
+        "Mojito"
+      ],
+      "price": 309
+    },
+    {
+      "category": "Momos",
+      "name": "Fried Momos Combo",
+      "includes": [
+        "Fried momos",
+        "Fries",
+        "Lime"
+      ],
+      "price": 160
+    },
+    {
+      "category": "Momos",
+      "name": "Schezwan Momos Combo",
+      "includes": [
+        "Schezwan momos",
+        "Mojito"
+      ],
+      "price": 209
+    },
+    {
+      "category": "Momos",
+      "name": "Kanthari Momos Combo",
+      "includes": [
+        "Kanthari momos",
+        "2 lime"
+      ],
+      "price": 170
+    },
+    {
+      "category": "Wrap",
+      "name": "Beef Wrap Combo",
+      "includes": [
+        "Beef wrap",
+        "Mint lime"
+      ],
+      "price": 249
+    },
+    {
+      "category": "Wrap",
+      "name": "Chicken Smashed Wrap Combo",
+      "includes": [
+        "Chicken smashed wrap",
+        "Mojito"
+      ],
+      "price": 260
+    },
+    {
+      "category": "Wrap",
+      "name": "Chicken Strips Combo",
+      "includes": [
+        "Chicken strips",
+        "Mojito"
+      ],
+      "price": 229
+    },
+    {
+      "category": "Group Packages",
+      "name": "Pack of 6",
+      "includes": [
+        "Chicken smashed loaded",
+        "Beef smashed burger",
+        "Zinger wrap",
+        "Momos (flavour customer choice)",
+        "Chicken strips",
+        "Fries",
+        "Zinger burger",
+        "2 mojito",
+        "1 cold coffee",
+        "2 lime"
+      ],
+      "price": 1449
+    },
+    {
+      "category": "Group Packages",
+      "name": "Pack of 4",
+      "includes": [
+        "Chicken smashed burger",
+        "Beef loaded",
+        "Zinger wrap",
+        "Strips",
+        "French fries",
+        "Mojito",
+        "2 lime"
+      ],
+      "price": 999
+    },
+    {
+      "category": "Group Packages",
+      "name": "3 Person Combo",
+      "includes": [
+        "Beef burger",
+        "Cheese loaded",
+        "French fries",
+        "Schezwan momos",
+        "Strips",
+        "Cold coffee",
+        "Mojito",
+        "1 lime"
+      ],
+      "price": 899
+    },
+    {
+      "category": "Group Packages",
+      "name": "2 Persons Combo",
+      "includes": [
+        "Zinger burger",
+        "Cheese loaded",
+        "2 mojito",
+        "Fries"
+      ],
+      "price": 609
+    }
+  ],
+  "verification_notes": [
+    "Cheddar Fries has two printed prices: ₹100 on the black menu page and ₹120 on the white menu page. The JSON uses ₹100 as the primary value and preserves ₹120 as an alternative.",
+    "Virgin Mojito has two printed prices: ₹89 on the black drinks page and ₹80 on the white menu page. The JSON uses ₹89 as the primary value and preserves ₹80 as an alternative.",
+    "Boost Boba has two printed prices: ₹120 on the black drinks page and ₹140 on the white menu page. The JSON uses ₹120 as the primary value and preserves ₹140 as an alternative.",
+    "The white menu page lists additional Boba flavours; these have been included with their printed prices.",
+    "The white menu page shows a general Burger list with Smashed Beef Burger ₹220, XL ₹290, XXL ₹350; Smashed Chicken Burger ₹170, XL ₹260, XXL ₹320; Zinger Burger ₹150; and Veg Burger ₹120. The Classic Wrap page separately lists Triple Treat Burger ₹250.",
+    "Combo ingredient wording follows the printed menu. Some combo descriptions use shortened names such as 'cheese loaded' and 'beef loaded'; confirm exact variants with the cafe before publishing.",
+    "The first combo-menu photograph is partly cropped. The later, clearer combo-menu photographs were used for the full combo prices and descriptions."
+  ]
+}

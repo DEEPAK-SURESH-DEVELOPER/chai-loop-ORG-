@@ -1,0 +1,7 @@
+import { Heart, Leaf, Star } from 'lucide-react'
+import './About.css'
+import heroCup from '../../assets/images/chai-cup.png'
+
+export default function About() {
+  return <section id="about" className="about-section section-shell"><div className="about-section__visual"><div className="about-section__image-frame"><img src={heroCup} alt="Chai Loop signature cup of chai" loading="lazy"/></div><span className="about-section__stamp">A good place<br/>to loop back to</span></div><div className="about-section__content"><span className="eyebrow">A place for everyday cravings</span><h2>More than a quick stop. <em>A little moment for you.</em></h2><p>Chai Loop brings together comforting chai, satisfying bites and refreshing drinks in one easy-going cafe experience. Whether you're catching up with friends, taking a quick break or picking up something on the way, there's always a reason to loop back.</p><div className="about-points"><div><Heart size={19}/><span><strong>Made for sharing</strong><small>Good food and better conversations.</small></span></div><div><Leaf size={19}/><span><strong>Something for every craving</strong><small>From chai and momos to loaded fries and shakes.</small></span></div><div><Star size={19}/><span><strong>Your neighbourhood cafe</strong><small>Easy-going flavours in Kakkanad.</small></span></div></div><a href="#menu" className="text-link">Explore the menu <span>↗</span></a></div></section>
+}
