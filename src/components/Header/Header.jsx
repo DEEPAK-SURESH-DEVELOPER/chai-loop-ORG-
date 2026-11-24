@@ -7,10 +7,10 @@ import './Header.css'
 
 const navLinks = [
   { label: 'Home', href: '#home' },
+  { label: 'About', href: '#about' },
   { label: 'Menu', href: '#menu' },
   { label: 'Experience', href: '#experience' },
   { label: 'Gallery', href: '#gallery' },
-  { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ]
 
